@@ -69,6 +69,28 @@ html{
     color: var(--color-black);
    }
 
+   h1 {
+       font-size: 3rem;
+   }
+
+   h2 {
+       font-size: 2rem;
+   }
+
+   h3 {
+       font-size: 1.6rem;
+   }
+
+   h4 {
+       font-size: 1.1rem;
+   }
+   h5 {
+       font-size: 0.95rem;
+   }
+   h6 {
+       font-size: 0.8rem;
+   }
+
    /* image style */
 
    img{
@@ -117,4 +139,47 @@ html{
    }
    .btn-sm{
     padding: 0.5rem 1.2rem;
+   }
+
+   /* media queries */
+
+   @media screen and (max-width: 1024px){
+    body{
+        font-size: 1rem;
+    }
+    .container{
+        width: var(--container-width-md);
+    }
+    section{
+        padding:8rem 0;
+    }
+    section p {
+        width:72%;
+        margin-bottom:  3rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+   }
+
+
+   @media screen and (max-width: 600px){
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    .btn{
+        padding: 0.6rem 1.5rem;
+    }
+    section p {
+        width: var(--container-width-md);
+    }
    }

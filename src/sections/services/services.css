@@ -1,0 +1,40 @@
+.service_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+}
+.service{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.service_icon{
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.6rem;
+    border-radius: 6px;
+    transition: var(--transition);
+
+}
+.service_icon:hover{
+    background: var(--color-light);
+    color: var(--color-primary);
+}
+.service h4{
+    margin-bottom: 0.7rem;
+}
+
+@media screen and (max-width:1024px) {
+    .service_container{
+        gap: 1.5rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .service_container{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    .service{
+        gap: 1.2rem;
+    }
+}

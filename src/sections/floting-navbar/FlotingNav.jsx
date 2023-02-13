@@ -3,7 +3,7 @@ import './flotingNav.css'
 
 const FlotingNav = () => {
   return (
-    <div>flotingNav</div>
+    <section>flotingNav</section>
   )
 }
 
