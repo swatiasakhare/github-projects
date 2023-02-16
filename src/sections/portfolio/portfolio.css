@@ -23,6 +23,19 @@
     align-items: start;
 
 }
+.card.portfolio_project{
+    animation: animateProject 800ms ease-in forwards;
+}
+
+@keyframes animateProject {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 .portfolio_project-image{
     width: 100%;
     height:fit-content;
@@ -49,3 +62,23 @@
    color: var(--color-primary);
 }
 
+@media screen and (max-width:1024px){
+    .portfolio_projects{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .portfolio_categories{
+        gap: 0.6rem;
+    }
+    .btn .cat_btn{
+        padding: 0.7rem 0.8rem;
+    }
+    .portfolio_projects{
+        grid-template-columns: 1fr ;
+        gap: 1.5rem;
+    }
+}

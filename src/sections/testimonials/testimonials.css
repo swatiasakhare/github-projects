@@ -1,0 +1,30 @@
+.testimonials{
+    padding-bottom: 0;
+}
+.swiper{
+    height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 12rem;
+}
+.swipe-slide{
+    cursor: grab;
+}
+.testimonial_client{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.testimonial_client-avatar{
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.swiper-pagination{
+    margin-bottom: 8rem;
+}
+.swiper-pagination-bullet{
+    background: var(--color-primary);
+}
