@@ -15,7 +15,7 @@ const ProjectsCategories = ({categories, onFilterProjects}) => {
             categories.map(category => (
                 <CategoryButton key={category} category={category} 
                 onChangeCategory = {() => changeCategoryHandler(category) }
-                 className= {`btn cat_btn ${activeCategory == category ? 'primary': 'white'}`} />
+                 className= {`btn cat_btn ${activeCategory === category ? 'primary': 'white'}`} />
             ))
         }
     </div>

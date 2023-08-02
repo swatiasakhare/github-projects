@@ -25,6 +25,9 @@ nav{
     display: flex;
     gap:3.5rem;
 }
+.nav_menu a{
+    color: white;
+}
 #theme_icon{
     background: transparent;
     font-size: 2rem;

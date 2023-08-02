@@ -8,7 +8,7 @@ const Services = () => {
     <section id='services'>
       <h2>My services</h2>
       <p>I give you the best in all the services bellow</p>
-      <div className="container service_container">
+      <div className="container service_container" >
         {
         data.map(item => (
           <Card key={item.id} className="service light">

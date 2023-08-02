@@ -2,7 +2,7 @@ import Card from "../../component/card/Card"
 
 const Project = ({project}) => {
   return (
-  <Card className= "portfolio_project">
+  <Card className= "portfolio_project" data-aos='fade-up'>
     <div className="portfolio_project-image">
         <img src={project.image} alt="portfolio project img" />
     </div>
